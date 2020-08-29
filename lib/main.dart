@@ -53,7 +53,7 @@ class MyHomePage extends StatelessWidget {
             ),
           ),
           SliverList(
-            //also you can use sliverFillRemaining
+            //also you can use sliverFillRemaining,SliverToBoxAdapter-> for only one child like to show container inside slivers, SliverPadding
             delegate: SliverChildBuilderDelegate(
               (context, index) {
                 //use SliverChildListDelegate or SliverChildBuilderDelegate if you get data from model
